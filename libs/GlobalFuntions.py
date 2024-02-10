@@ -26,3 +26,11 @@ def pull_first_and_last_name(fullname):
     lname = names[1]
 
     return "First name : " + fname + "\n" + "Last name : " + lname
+
+def reverse_string(string:str):
+    """
+    reverses string
+    :param str01: string
+    :return:
+    """
+    return string[::-1]
