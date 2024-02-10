@@ -14,3 +14,15 @@ def greet(name):
     :return: greeting message
     """
     return "Welcome " + name
+
+def pull_first_and_last_name(fullname):
+    """
+    Function to pull first name & last name
+    :param fullname:
+    :return: firstname & lastname
+    """
+    names = fullname.split(" ")
+    fname = names[0]
+    lname = names[1]
+
+    return "First name : " + fname + "\n" + "Last name : " + lname
