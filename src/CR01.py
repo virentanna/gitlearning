@@ -4,3 +4,7 @@ from libs.GlobalFuntions import *
 
 if __name__ == '__main__':
     print(greet("Viren"))
+    print("-------------")
+    print(pull_first_and_last_name("Viren Tanna"))
+    print("-------------")
+    print(reverse_string("Viren Tanna"))
